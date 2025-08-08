@@ -1,22 +1,333 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Personal Portfolio of Swayam - Showcasing skills, projects, achievements, and resume. Contact me for collaboration."
-    />
-    <meta name="keywords" content="Portfolio, Resume, Projects, Web Developer, Swayam" />
-    <meta name="author" content="Swayam" />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <title>Swayam's Portfolio</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-  </body>
-</html> 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Swayam Goradiya - Student Portfolio | B.Tech Information Technology Student | Web Developer & Problem Solver">
+  <meta name="keywords" content="Student Portfolio, Web Developer, Information Technology, React.js, JavaScript, Python">
+  <meta name="author" content="Swayam Goradiya">
+  <title>Swayam Goradiya - Student Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">
+        <span class="logo-text">SG</span>
+      </div>
+      <ul class="nav-menu">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-container">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1 class="hero-title">
+            Hi, I'm <span class="highlight">Swayam Goradiya</span>
+          </h1>
+          <p class="hero-subtitle">B.Tech Information Technology Student</p>
+          <p class="hero-description">
+            Passionate about web development and problem-solving. Currently pursuing my degree while building innovative projects and expanding my technical skills.
+          </p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">View My Work</a>
+            <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="image-container">
+            <img src="images/1000117433.jpg" alt="Swayam Goradiya" class="profile-photo">
+            <div class="image-overlay"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section about">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p class="about-description">
+            I'm a dedicated B.Tech Information Technology student at the Institute of Advanced Research, currently in my 3rd year. 
+            My passion lies in creating innovative web solutions and solving complex problems through code.
+          </p>
+          <p class="about-description">
+            As a student developer, I'm constantly learning and exploring new technologies. I enjoy working on projects that challenge me 
+            and help me grow both technically and professionally. My goal is to become a skilled full-stack developer who can create 
+            meaningful applications that make a difference.
+          </p>
+          <div class="about-stats">
+            <div class="stat-item">
+              <span class="stat-number">3rd</span>
+              <span class="stat-label">Year Student</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">5+</span>
+              <span class="stat-label">Projects Completed</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">6+</span>
+              <span class="stat-label">Technologies</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" class="section education">
+    <div class="container">
+      <h2 class="section-title">Education</h2>
+      <div class="education-content">
+        <div class="education-card">
+          <div class="education-icon">
+            <i class="fas fa-graduation-cap"></i>
+          </div>
+          <div class="education-details">
+            <h3>Bachelor of Technology</h3>
+            <h4>Information Technology</h4>
+            <p class="institution">Institute of Advanced Research</p>
+            <p class="duration">2023 - 2027</p>
+            <p class="current-status">Currently in 3rd Year</p>
+            <div class="education-highlights">
+              <span class="highlight-tag">Web Development</span>
+              <span class="highlight-tag">Programming</span>
+              <span class="highlight-tag">Problem Solving</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section skills">
+    <div class="container">
+      <h2 class="section-title">Technical Skills</h2>
+      <div class="skills-content">
+        <div class="skills-category">
+          <h3 class="category-title">Frontend Development</h3>
+          <div class="skills-grid">
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="fab fa-html5"></i>
+              </div>
+              <span class="skill-name">HTML</span>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="fab fa-css3-alt"></i>
+              </div>
+              <span class="skill-name">CSS</span>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="fab fa-js"></i>
+              </div>
+              <span class="skill-name">JavaScript</span>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="fab fa-react"></i>
+              </div>
+              <span class="skill-name">React.js</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="skills-category">
+          <h3 class="category-title">Programming Languages</h3>
+          <div class="skills-grid">
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="fab fa-python"></i>
+              </div>
+              <span class="skill-name">Python</span>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="fas fa-code"></i>
+              </div>
+              <span class="skill-name">C++</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills-category">
+          <h3 class="category-title">Tools & Technologies</h3>
+          <div class="skills-grid">
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="fas fa-mobile-alt"></i>
+              </div>
+              <span class="skill-name">Responsive Design</span>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="fab fa-git-alt"></i>
+              </div>
+              <span class="skill-name">Git & GitHub</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section projects">
+    <div class="container">
+      <h2 class="section-title">Featured Projects</h2>
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-image">
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="https://github.com/Swayam20-08/mini-e-commerce" class="project-link" target="_blank">
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Mini E-Commerce Platform</h3>
+            <p class="project-description">
+              A fully responsive and modern mini e-commerce web application built using React.js, Tailwind CSS, and Zustand for state management. 
+              Features include product listings, shopping cart functionality, and a complete checkout process.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">React.js</span>
+              <span class="tech-tag">Tailwind CSS</span>
+              <span class="tech-tag">Zustand</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-image">
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="https://github.com/Swayam20-08/ferrari-redesign" class="project-link" target="_blank">
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Ferrari Website Redesign</h3>
+            <p class="project-description">
+              A responsive redesign of the Ferrari car company website, showcasing modern web design principles and user experience optimization.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">HTML5</span>
+              <span class="tech-tag">CSS3</span>
+              <span class="tech-tag">JavaScript</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section contact">
+    <div class="container">
+      <h2 class="section-title">Get In Touch</h2>
+      <div class="contact-content">
+        <div class="contact-info">
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div class="contact-details">
+              <h4>Email</h4>
+              <p>swayamgoradiya@gmail.com</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fab fa-github"></i>
+            </div>
+            <div class="contact-details">
+              <h4>GitHub</h4>
+              <p>github.com/Swayam20-08</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div class="contact-details">
+              <h4>Location</h4>
+              <p>Gujarat, India</p>
+            </div>
+          </div>
+        </div>
+        
+        <form id="contact-form" class="contact-form" action="https://formspree.io/f/your-form-id" method="POST">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">
+            <i class="fas fa-paper-plane"></i>
+            Send Message
+          </button>
+          <p id="form-status" aria-live="polite"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-text">
+          <p>2023, Swayam Goradiya. All rights reserved.</p>
+          <p>B.Tech Information Technology Student | Web Developer</p>
+        </div>
+        <div class="footer-social">
+          <a href="https://github.com/Swayam20-08" class="social-link" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/feed" class="social-link">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
