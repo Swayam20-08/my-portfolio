@@ -1,6 +1,4 @@
-/* Professional Portfolio Styles */
 
-/* App Container */
 .App {
   min-height: 100vh;
   background: #ffffff;
@@ -8,7 +6,6 @@
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 }
 
-/* Header/Hero Section */
 .hero {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   padding: 6rem 2rem 4rem 2rem;
@@ -137,8 +134,6 @@
   z-index: 2;
   animation: slideInUp 1s ease-out 0.6s both;
 }
-
-/* Hero Stats */
 .hero-stats {
   display: flex;
   gap: 2rem;
@@ -165,7 +160,6 @@
   font-weight: 500;
 }
 
-/* Navigation */
 .nav-list {
   list-style: none;
   display: flex;
@@ -213,7 +207,6 @@
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
 }
 
-/* Section Styles */
 .section {
   padding: 5rem 2rem;
   max-width: 1200px;
@@ -244,7 +237,6 @@
   animation: expandWidth 0.8s ease-out 0.3s both;
 }
 
-/* About Section */
 .about-content {
   max-width: 1000px;
   margin: 0 auto;
@@ -263,7 +255,6 @@
   animation: fadeIn 1s ease-out 0.5s both;
 }
 
-/* Education */
 .education {
   margin: 4rem 0;
 }
@@ -378,7 +369,6 @@
   margin-bottom: 0.5rem;
 }
 
-/* Skills Section */
 .skills-list {
   display: flex;
   flex-wrap: wrap;
@@ -415,7 +405,6 @@
   color: #ffffff;
 }
 
-/* Projects Section */
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
@@ -545,7 +534,6 @@
   box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
 }
 
-/* Contact Section */
 .contact form {
   display: flex;
   flex-direction: column;
@@ -636,7 +624,6 @@
   animation: fadeIn 0.5s ease-out;
 }
 
-/* Footer */
 footer {
   text-align: center;
   padding: 3rem 2rem;
@@ -647,7 +634,6 @@ footer {
   animation: fadeInUp 1s ease-out;
 }
 
-/* Animations */
 @keyframes fadeInUp {
   from {
     opacity: 0;
@@ -841,4 +827,5 @@ footer {
   .photo-icon {
     font-size: 2rem;
   }
+
 } 
